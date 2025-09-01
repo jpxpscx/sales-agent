@@ -63,21 +63,21 @@ def create_pdf(report_content, company_name):
 
 
 # ============= UI ==============
-st.title("Sales Insights Agent")
-st.subheader("Generate an sales insights report")
+st.title("Sales Agent")
+st.subheader("Generate a sales insights report")
 st.divider()
 
 # company name
-company_name = st.text_input("Enter the Company Name")
+company_name = st.text_input("Enter the Company Name:")
 
 # company URL
-company_url = st.text_input("Enter the Company Website URL")
+company_url = st.text_input("Enter the Company Website URL:")
 
 # product name
-product_name = st.text_input("Enter the Product Name")
+product_name = st.text_input("Enter the Product Name:")
 
 # company competitors
-company_competitors = st.text_input("Enter Competitors (comma separated)")
+company_competitors = st.text_input("Enter Competitors (comma separated):")
 
 report = None
 
